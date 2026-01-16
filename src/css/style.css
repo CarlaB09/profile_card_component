@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+body{
+ background-color: var(--background-color);
+ font-family: 'Kumbh Sans', sans-serif;
+ font-size: 18px;
+} 
+
+.bg {
+    position: fixed;
+    z-index: -2;
+  
+    &.top {
+      right: 840px;
+      bottom: 300px;
+    }
+  
+    &.bottom {
+      left: 850px;
+      top: 330px;
+    }
+  }
+  
+main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p{
+    color: var(--text-color);
+}
+
+.profileCard{
+    width:360px;
+    height: 370px;
+    background-color: #ffff;
+    border-radius: 15px;
+}
+
+.card .profilePhoto{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    bottom: 60px;
+}
+
+.top img{
+    width: 360px;
+    height: 110px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profilePhoto img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.profileName{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    gap: 10px;
+    bottom: 50px;
+}
+
+.profileName p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.profileLocation{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+}
+
+.profileLocation p{
+    font-weight: 400;
+}
+
+hr{
+    position: relative;
+    bottom: 10px;
+}
+
+.cardInformations{
+  position: relative;
+  top: 20px;
+}
+
+.cardInfo{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+}
+
+.cardInfo2{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top:3px;
+    font-size: 12px;
+    gap: 10px;
+}
+
+.cardInfo2 .dif{
+    position: relative;
+    right: 11px;
+}
+
+

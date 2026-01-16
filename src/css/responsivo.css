@@ -1,0 +1,51 @@
+@media(max-width:1024px){ 
+
+  .bg {
+    position: fixed;
+    z-index: -1;
+  
+    &.top {
+      right: 450px;
+      bottom: 300px;
+    }
+  
+    &.bottom {
+      left: 450px;
+      bottom: 1px;
+    }
+  }
+    
+    }
+
+    @media(max-width:426px){
+      .bg {
+        position: fixed;
+        z-index: -1;
+      
+        &.top {
+          right: 200px;
+          bottom: 350px;
+        }
+      
+        &.bottom {
+          left: 180px;
+          bottom: 80px;
+        }
+      }
+        
+        }
+
+        @media(max-width:321px){
+        .profileCard{
+            width:280px;
+            height: 370px;
+            background-color: #ffff;
+            border-radius: 15px;
+        } 
+
+        .top img{
+          width:280px;
+
+    
+      }
+        }

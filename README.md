@@ -1,4 +1,4 @@
-# Huddle-Project
+# Profile-card-component
 
 The purpose of this project is to test our knowledge and skills acquired in advanced HTML + CSS.
 A Frontend Mentor project to create a responsive page.
@@ -17,9 +17,9 @@ I feel that this experience was essential for my learning.
 
 
 #### Design for desktop:
-[Huddle_Project_Desktop](./design/desktop-design.jpg)
+![profile-card-component_Project_Desktop](./design/desktop-design.jpg)
 
 #### Design for mobile:
-[Huddle_Project_Mobile](./design/mobile-design.jpg)
+![profile-card-component_Project_Mobile](./design/mobile-design.jpg)
 
 

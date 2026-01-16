@@ -3,6 +3,8 @@
 The purpose of this project is to test our knowledge and skills acquired in advanced HTML + CSS.
 A Frontend Mentor project to create a responsive page.
 
+[Page link](https://carlab09.github.io/profile_card_component/)
+
 #### Technologies used:
 *  HTML
 *  CSS
